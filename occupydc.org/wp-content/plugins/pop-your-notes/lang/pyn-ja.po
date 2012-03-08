@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pop Your Notes 1.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Studio Switch LLC <example@example.com>\n"
+"Language-Team: Studio Switch LLC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: popyournotes.php:32
+msgid "This is sample contents."
+msgstr "これはサンプルです。モーダルで表示したい内容を記入してください。"
+
+#: popyournotes.php:55
+msgid "Pop Your Notes Settings"
+msgstr "Pop Your Notes 設定"
+
+#: admin-page.php:32
+msgid "Successfully saved!"
+msgstr "設定が保存されました。"
+
+#: admin-page.php:33
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: admin-page.php:53
+msgid "Settings"
+msgstr "設定"
+
+#: admin-page.php:66
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: admin-page.php:71
+msgid "Contents:<br />(HTML Tags allowed.)"
+msgstr "表示内容:<br />(タグ使用可)"
+
+#: admin-page.php:77
+msgid "Text Color"
+msgstr "文字色"
+
+#: admin-page.php:78
+msgid "Background Color"
+msgstr "背景色"
+
+#: admin-page.php:118
+msgid "Style Settings"
+msgstr "スタイル設定"
+
+#: admin-page.php:123
+msgid "Border"
+msgstr "ボーダー"
+
+#: admin-page.php:128
+msgid "Overlay Color"
+msgstr "オーバーレイ色"
+
+#: admin-page.php:148
+msgid "Overlay Opacity"
+msgstr "オーバーレイ不透明度"
+
+#: admin-page.php:152
+msgid "Overlay Cursor Type"
+msgstr "オーバーレイカーソルタイプ"
+
+#: admin-page.php:156
+msgid "When clicking Overlay"
+msgstr "オーバーレイ部クリック時"
+
+#: admin-page.php:157
+msgid "Do Nothing"
+msgstr "何もしない"
+
+#: admin-page.php:157
+msgid "Close Modal"
+msgstr "モーダルを閉じる"
+
+#: admin-page.php:160
+msgid "Width(px or %)"
+msgstr "横サイズ(pxか%で指定)"
+
+#: admin-page.php:164
+msgid "Height(px or %)"
+msgstr "縦サイズ(pxか%で指定)"
+
+#: admin-page.php:169
+msgid "If not set width / height, Modal box will resize own size fit to inner contents."
+msgstr "※サイズを指定しない場合、内容に合わせて自動的にモーダルボックスがリサイズされます。"
+
+#: admin-page.php:173
+msgid "Slow"
+msgstr "ゆっくり"
+
+#: admin-page.php:174
+msgid "Normal"
+msgstr "普通"
+
+#: admin-page.php:175
+msgid "Fast"
+msgstr "速い"
+
+#: admin-page.php:179
+msgid "Showing Duration"
+msgstr "表示の速度"
+
+#: admin-page.php:188
+msgid "Closing Duration"
+msgstr "閉じる速度"
+
+#: admin-page.php:202
+msgid "Conditional Settings"
+msgstr "条件分岐設定"
+
+#: admin-page.php:207
+msgid "Show"
+msgstr "表示"
+
+#: admin-page.php:208
+msgid "ID/Slug(Comma-Separated)"
+msgstr "ID/スラッグ(カンマ区切り)"
+
+#: admin-page.php:212
+msgid "Front Page<br />(is_front_page)"
+msgstr "トップページ<br />(is_front_page)"
+
+#: admin-page.php:219
+msgid "Posts<br />(is_single)"
+msgstr "投稿<br />(is_single)"
+
+#: admin-page.php:227
+msgid "Pages<br />(is_page)"
+msgstr "ページ<br />(is_page)"
+
+#: admin-page.php:235
+msgid "Archive<br />(is_archive)"
+msgstr "アーカイブ<br />(is_archive)"
+
+#: admin-page.php:242
+msgid "404<br />(is_404)"
+msgstr "404ページ<br />(is_404)"
+
+#: admin-page.php:255
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: admin-page.php:260
+msgid "Plugin Arguments"
+msgstr "Simple Modalに渡すオプション"
+
+#: admin-page.php:266
+msgid "Colorpicker Plugin"
+msgstr "モード"
+
+#: admin-page.php:267
+msgid "Really Simple Color Picker"
+msgstr "シンプルモード"
+
+#: admin-page.php:267
+msgid "jQuery simpleColor plugin"
+msgstr "マルチカラーモード"
+
+#: admin-page.php:282
+msgid "About"
+msgstr "情報"
+

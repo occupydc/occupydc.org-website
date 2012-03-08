@@ -1,0 +1,66 @@
+### Changelog ###
+
+2010.05.05 - version 1.1.1
+	* footer.php - added function to insert own footer text (setup in admin panel)
+	* functions.php - added shortcodes for footer text
+
+2010.05.05 - version 1.1
+	* added admin panel
+	* style.css - added z-index to navigation bar, fixed header and logo
+	* header.php - added function to display logo image (setup in admin panel)
+	* header.php - added feedburner integration (setup in admin panel)
+	* footer.php - added function to insert analytics code (setup in admin panel)
+
+2010.04.08 - version 1.0.5
+	* post.php - fixed "Continue Reading", now showing only when needed
+
+2010.04.04 - version 1.0.4
+	* moved custom.css to folder css
+	* header.php - edited path to custom.css
+	* style.css - logo h1: added line-height
+	* style.css - added css navigation menu
+	* searchform.php - re-added due to some problems
+	* post.php - removed the_excerpt() and changed to the_content()
+	* functions.php - removed excerpt filter functions
+	* functions.php - re-added search widget functions
+
+2010.03.26 - version 1.0.3
+	* sidebar.php - removed a comment which caused safari and chrome browsers to render the page incorrectly
+	* functions.php - added clear fix after widgets (caused rendering problems in safari and chrome browsers)
+	* comments.php - changed the comment form (removed the js part, inserted label)
+	* footer.php - changed copyright information
+	* lang/* - updates files
+
+2010.03.25 - version 1.0.2
+	* style.css - changed theme and author URL
+	* style.css - changed comment-form textarea width
+	* style.css - changes some settings for the searchform
+	* sidebar.php - added default sidebar widgets
+	* header.php - added support for custom.css 
+	* header.php - added wp_enqueue_script('comment-reply')
+	* header.php, funtions.php, 404.php - replaced searchform with get_search_form()
+	* searchform.php - completely removed
+	* search.php - bug fixed (hopefully)
+	* lang/* - updated files
+	
+
+2010.03.24 - version 1.0.1
+
+	* style.css - added class for sticky posts (yellow background)
+	* style.css - added border for nocomments
+	* style.css - added img max-width
+	* style.css - fixed quotes & blockquotes
+	* style.css - fixed styling for image galleries
+	* post.php - added wp_link_pages
+	* lang/* - updated files
+	* header.php - searchform exported to searchform.php
+	* searchform.php - searchform
+	* footer.php - removed footer text option (was just a test and i forgot to remove it)
+	* functions.php - added support for trackbacks & pingbacks
+	* post.php - added support for multiple pages
+	* post.php - added support for tags
+	* 404.php - added better error message and a searchform
+
+
+2010.03.22 - version 1.0 
+	* First Release

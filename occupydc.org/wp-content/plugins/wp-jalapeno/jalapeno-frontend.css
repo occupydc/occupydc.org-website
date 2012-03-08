@@ -1,0 +1,47 @@
+/** Default styles for WP Jalapeno forms */
+#content .nsjalapeno--action-form .formrow {
+  display:block;
+  text-align:left;
+  width:470px;
+}
+
+#content .nsjalapeno--action-form .formrow label {
+  float: left;
+  text-align: left;
+  width: 100px;
+}
+
+#content .nsjalapeno--action-form .formrow input,
+#content .nsjalapeno--action-form .formrow select {
+  float: left;
+  margin-bottom: 8px;
+}
+
+#content .nsjalapeno--action-form .buttonrow {
+  clear: both;
+  text-align: left;
+}
+
+#content .nsjalapeno--action-form .formrow {
+  clear: both;
+}
+
+#sidebar .nsjalapeno--action-form .formrow label {
+  display: block;
+  margin: 5px 0 0 0;
+}
+
+.nsjalapeno--action-form .formrow.nsjalapeno--content {
+  margin: 0 0 10px 0;
+  padding: 5px;
+  border: 1px solid #2C8943;
+}
+
+.nsjalapeno--action-form .buttonrow input {
+  margin-top: 8px;
+}
+
+.nsjalapeno--action-form .formrow.error input,
+.nsjalapeno--action-form .formrow.error select {
+  border: 1px solid #ff6666;
+}

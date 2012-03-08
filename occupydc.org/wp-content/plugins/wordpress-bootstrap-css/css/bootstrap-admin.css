@@ -1,0 +1,169 @@
+@CHARSET "ISO-8859-1";
+
+	/* GENERAL STYLES */
+		.shortcode-usage {
+			border-bottom: 1px solid #bbbbbb;
+			margin-bottom: 10px;
+		}
+		p.code-description {
+			font-style: italic;
+		}
+		.postbox-container {
+			margin-right: 10px;
+		}
+		.postbox-container .meta-box-sortables {
+			min-height: 100px;
+		}
+		.postbox#common-widget {
+			height: 150px;
+		}
+		
+	/* BOOSTRAP SETTINGS PAGE STYLES */
+		.inside {
+			margin-bottom: 15px;
+		}
+		
+		.inside p.desc {
+			font-size: smaller;
+			font-style: italic;
+			margin-top: 4px 0 4px 20px;
+		}
+		.submit span {
+			font-size: smaller;
+			font-style: italic;
+		}
+		.option_section {
+			border: 1px solid transparent;
+			border-radius: 8px 8px 8px 8px;
+			margin-bottom: 8px;
+			padding: 8px 10px 0px;
+		}
+	/*
+		.option_section:hover {
+		    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+		}
+		.selected_item {
+		    background-color: rgba(128, 255, 128, 0.2);
+		    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+		}
+	*/
+		.selected_item label {
+			font-weight: bold;
+		}
+		.nonselected_item {
+			background-color: transparent;
+		}
+		.nonselected_item label {
+			font-weight: normal;
+		}
+		.option_section:hover {
+			background-color: #ffffff;
+			cursor: pointer;
+		}
+	
+		.option_section.active {
+			background-color: #DDDDDD;
+		}
+	
+		table.tbl_tbs_options {
+			width: 100%;
+			border: 1px solid transparent;
+		}
+		table.tbl_tbs_options tr td {
+			width: 49%;
+			border: 1px solid transparent;
+		}
+		
+		select#hlt_bootstrap_option {
+			padding: 5px;
+			border-radius:6px 6px 6px 6px;
+			line-height: auto;
+			height: 30px;
+			width: 200px;
+		}
+		
+		table#tbl_tbs_options_javascript td {
+			vertical-align: top;
+			width: 50%;
+		}
+	
+	/* MAILCHIMP SIGNUP FORM STYLES */
+		.dap_signup_box,
+		.mailchimp_signup_box {
+			border-radius: 3px;
+		}
+		#dap_signup_box_widget {
+			padding: 10px;
+			width: 93%;
+		}
+		.dap_signup_box .signup_line,
+		.mailchimp_signup_box .signup_line {
+			margin-bottom: 10px;
+		}
+		.dap_signup_box .signup_field,
+		.mailchimp_signup_box .signup_field {
+			display: block;
+			float: left;
+			line-height: 28px;
+			width: 30%;
+		}
+		.dap_signup_box .signup_input,
+		.mailchimp_signup_box .signup_input {
+		    display: block;
+		}
+		.dap_signup_box .signup_input input,
+		.mailchimp_signup_box .signup_input input {
+			padding: 5px;
+			width: 65%;
+		}
+		#dap_signup_box_widget .signup_input input {
+			width: 60%;
+		}
+		#mailchimp_signup_box_widget .signup_input input {
+			width: 85%;
+		}
+		.dap_signup_box .submit_button,
+		.mailchimp_signup_box .submit_button {
+			margin-top: 15px;
+			text-align: left;
+		}
+		.dap_signup_box .submit_button input,
+		.mailchimp_signup_box .submit_button input {
+			float: none;
+			width: auto;
+			
+			border: 1px solid #DB8300;
+			border-radius: 5px 5px 5px 5px;
+			box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+			color: #FFFFFF;
+			display: inline-block;
+			font: bold 18px/50px Helvetica,Arial,sans-serif;
+			height: 50px;
+			outline: medium none;
+			overflow: visible;
+			padding: 0 20px;
+			position: relative;
+			text-decoration: none;
+			text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+			white-space: nowrap;
+			
+			background: #ffcc00; /* Old browsers */
+			background: -moz-linear-gradient(top, #ffcc00 0%, #ff9900 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#ff9900)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #ffcc00 0%,#ff9900 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #ffcc00 0%,#ff9900 100%); /* Opera11.10+ */
+			background: -ms-linear-gradient(top, #ffcc00 0%,#ff9900 100%); /* IE10+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ff9900',GradientType=0 ); /* IE6-9 */
+			background: linear-gradient(top, #ffcc00 0%,#ff9900 100%); /* W3C */
+		}
+		.dap_signup_box .submit_button input:hover,
+		.mailchimp_signup_box .submit_button input:hover {
+			background: #ffd322; /* Old browsers */
+			background: -moz-linear-gradient(top, #ffd322 0%, #ffa51f 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd322), color-stop(100%,#ffa51f)); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top, #ffd322 0%,#ffa51f 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top, #ffd322 0%,#ffa51f 100%); /* Opera11.10+ */
+			background: -ms-linear-gradient(top, #ffd322 0%,#ffa51f 100%); /* IE10+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd322', endColorstr='#ffa51f',GradientType=0 ); /* IE6-9 */
+			background: linear-gradient(top, #ffd322 0%,#ffa51f 100%); /* W3C */
+		}

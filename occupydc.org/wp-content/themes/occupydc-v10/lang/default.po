@@ -1,0 +1,325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CP Minimal Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-06 13:09+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christian Proell <cproell@cproell.de>\n"
+"Language-Team: Christian Proell <cproell@cproell.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal\n"
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/index.php:22
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:43
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/author.php:27
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/search.php:25
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/index.php:23
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:44
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/author.php:28
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/search.php:26
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/index.php:31
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:54
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/author.php:38
+msgid "No posts were found"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:12
+msgid "Category:"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:14
+msgid "Tag:"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:16
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:18
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:20
+msgid "Archive:"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:16
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:12
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:109
+msgid "F jS, Y"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:18
+msgid "F, Y"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:20
+msgid "Y"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:22
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/author.php:10
+msgid "Author Archive"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archive.php:24
+msgid "Blog Archives"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/page.php:19
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/single.php:17
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:8
+msgid "Permanent Link to"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:13
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:110
+msgid "Edit"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:13
+msgid "No comments"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:13
+msgid "One comment"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:13
+msgid "comments"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:25
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/post.php:28
+msgid "Pages:"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:39
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archives.php:14
+msgid "Search"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:109
+msgid "on"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:109
+msgid "at"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:111
+msgid "Direct link to this comment"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/functions.php:121
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:20
+msgid "No Responses"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:20
+msgid "One Response"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:20
+msgid "% Responses"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:20
+msgid "to"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:47
+msgid "Leave Your Response"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:55
+msgid "You must be"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:55
+msgid "logged in"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:55
+msgid "to post a comment"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:65
+msgid "Logged in as"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:65
+msgid "Log out of this account"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:65
+msgid "Log out &raquo;"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:70
+msgid "Name"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:70
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:72
+msgid "(required)"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:72
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:74
+msgid "Website"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/comments.php:80
+msgid "Submit Comment"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/404.php:12
+msgid "Uh Oh! Something terrible happened!"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/404.php:16
+msgid "I'm very sorry, but there is nothing here!"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/404.php:17
+msgid "Either the page you are looking for doesn't exist, or the URL you typed or followed is incorrect or misspelled."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/404.php:18
+msgid "Why don't you try and search for it?"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:12
+msgid "Search Results"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:13
+msgid "404 Nothing Found"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:14
+msgid "Author Archives"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:17
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:18
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:19
+msgid "Archive"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:18
+msgid "F"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:19
+msgid "F j, Y"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/header.php:20
+msgid "Tag Archive"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archives.php:24
+msgid "Archives by Month"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/archives.php:36
+msgid "Archives by Subject"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/searchform.php:2
+msgid "Enter keywords..."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/search.php:9
+msgid "Search results"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/search.php:38
+msgid "No posts were found. Please try using a different keyword in your search."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/sidebar.php:8
+msgid "Recent Posts"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/sidebar.php:21
+msgid "Meta"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:43
+msgid "General Settings"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:48
+msgid "Logo URL"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:49
+msgid "Enter the full link to your logo image."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:54
+msgid "Analytics Code"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:55
+msgid "You can paste your Google Analytics or any other tracking code in this box. This will be automatically added to the footer."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:60
+msgid "Feedburner URL"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:61
+msgid "Insert your Feedburner RSS URL here. Leave this blank if you use the blogs RSS."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:148
+msgid " settings saved."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:149
+msgid " settings reset."
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:154
+msgid "Settings"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:232
+msgid "Save changes"
+msgstr ""
+
+#: /home/cproell/public_html/wordpress/wp-content/themes/cp-minimal/admin/admin-menu.php:259
+msgid "Reset"
+msgstr ""
+

@@ -1,0 +1,78 @@
+.nsjalapeno--replaceable {
+  position: relative;
+}
+
+.nsjalapeno--replaceable > .nsjalapeno--drag-handle {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  background-color: rgba(0,0,255,.5);
+}
+
+.nsjalapeno--sortable {
+  border: dashed 2px red;
+  padding: 3px;
+}
+
+.nsjalapeno--drag-handle {
+  cursor: move;
+}
+
+.ui-sortable-placeholder {
+  border: dashed 1px orange !important;
+}
+
+
+.nsjalapeno--being-dragged {
+  opacity: .5;
+}
+
+.nsjalapeno--item .nsjalapeno--item-buttons {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 3;
+  display: none;
+}
+
+
+.nsjalapeno--icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  background-image: url("images/icons.png");
+}
+
+
+.nsjalapeno--icon--close {
+  background-position: 0 0;
+}
+
+
+.nsjalapeno--button {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  
+  padding: 1px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  
+  background-color: #eee;
+  border: solid 1px #bbb;
+  
+  cursor: pointer;
+}
+
+
+.nsjalapeno--button:hover {
+  background-color: #ccc;
+  border-color: #aaa;
+}

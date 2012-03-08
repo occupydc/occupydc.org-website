@@ -1,0 +1,53 @@
+/* floating footnote div
+This will be loaded on EVERY page, and its difficult to get around this 
+in wordpress. So its better if you paste this into your template's css
+and then disable the "enque css" line in the php file...
+---just remember that you must do it again if you change templates!---
+ */
+
+/* Style The hover popup  */
+#footnotediv {
+	position:absolute;
+	background-color:white;
+	padding:3px;
+	padding-left:12px;
+	padding-right:12px;
+	border:1px solid #CDBBB5;
+	box-shadow:#555 0 0 10px;
+	-webkit-box-shadow:#555 0 0 10px;
+	-moz-box-shadow:0 0 10px #555;
+	z-index:99;
+}
+
+
+
+
+/* Style Reference Marks  */
+.fn-ref-mark {
+	/*  font-size: 80%;
+       vertical-align: super;  has tendancy of skewing line spacing.  fix? */
+	}
+
+/* Style Footnote Heading Title  */
+#fn-heading {
+	font-weight: bold;
+	}
+
+/* Style Footnote Text  */
+.fn-text {
+	text-decoration:none;
+	}
+
+/* If you want to style just the back link
+ after the footnote text   */
+a.fn-text {
+	border-bottom:none;
+}
+
+/* If you use an image as a footnote
+ text backlink   */
+a.fn-text img {
+	margin:0;
+	padding:0;
+	border:0;
+}

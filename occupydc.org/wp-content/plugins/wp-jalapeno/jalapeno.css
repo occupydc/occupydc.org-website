@@ -1,0 +1,217 @@
+/*
+    DIA Plugin CSS File
+*/
+
+input.dia_error {
+    border: 1px solid #ff0000;
+}
+
+.sidebar {
+    width: 650px;
+    float: left;
+}
+
+div.form-pieces {
+    display: none;
+}
+
+#diapreview {
+    color: #ff5555;
+}
+
+#form_message {
+    height: 60px;
+}
+div.table {
+    float: left;
+    width: 50%;
+}
+
+
+#icon-wp-jalapeno {
+  background-image: url("images/internal-icon-32.png");
+  background-repeat: no-repeat;
+}
+
+h2 small {
+  display: block;
+  font-size: 12px;
+  line-height: 80%;
+  margin-bottom: -.4em;
+}
+
+
+
+
+#jalapeno-form-editor-area {
+  min-width: 670px;
+  position: relative;
+}
+
+#jalapeno-form-editor-top {
+  width: 670px;
+  position: relative;
+  float: left;
+  padding-top: 10px;
+  margin-bottom: 9px;
+}
+
+
+#add-jalapeno-form {
+  float: right;
+  width: 45%;
+}
+
+#jalapeno-form-or {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid #ccc;
+}
+
+#jalapeno-form-or span {
+  margin-left: -25px;
+  display: block;
+  width: 50px;
+  margin-top: -13px;
+  line-height: 20px;
+  padding-bottom: 7px;
+  position: absolute;
+  top: 50%;
+  
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+  font-style: italic;
+  
+  
+  
+  background-color: #F9F9F9;
+  
+}
+
+#jalapeno-select-form {
+  float: left;
+  width: 45%;
+}
+
+#jalapeno-form-editor {
+  clear: both;
+}
+
+#jalapeno-form-editor-area h4,
+#jalapeno-form-editor-area p {
+  margin: 4px 0;
+}
+
+#jalapeno-select-form select {
+  display: block;
+  width: 100%;
+}
+
+#jalapeno-select-form .select-form-box {
+  padding: 10px 10px 15px;
+  margin-bottom: -10px;
+}
+
+#jalapeno-select-form .form-selected {
+  padding: 9px 9px 15px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-color: #DFDFDF;
+  border-width: 1px 1px 0;
+}
+
+
+#jalapeno-form-editor {
+  background-color: #f1f1f1;
+  border: solid #DFDFDF 1px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  
+  padding: 10px;
+}
+
+
+#jalapeno-form-editor #form-editor .nsjalapeno--canvas {
+  margin-right: 250px;
+  border: solid 1px #ccc;
+  background-color: #fff;
+  padding: 4px;
+  min-height: 300px;
+}
+
+
+#jalapeno-form-editor #form-editor  .nsjalapeno--toolbar {
+  float: right;
+  width: 210px;
+  padding: 5px 10px;
+  border: solid 1px #eaeaea;
+}
+
+#jalapeno-form-editor #form-editor  .nsjalapeno--toolbar h4 {
+  text-shadow: 0 1px 0 #f9f9f9;
+  font-size: small;
+  margin: .1em 0;
+}
+
+#jalapeno-form-editor #form-editor  .nsjalapeno--toolbar .formrow {
+  font-size: 11px;
+}
+
+
+#jalapeno-form-editor #form-editor  .nsjalapeno--toolbar .formrow input[type=text] {
+  width: 50%;
+}
+
+#jalapeno-form-editor .nsjalapeno--replaceable > .nsjalapeno--drag-handle {
+  background-color: #2785AC;
+  opacity: .5;
+}
+
+#jalapeno-form-editor .nsjalapeno--replaceable > .nsjalapeno--drag-handle:hover {
+  opacity: .7;
+}
+
+#jalapeno-form-editor .nsjalapeno--item {
+  margin: 1px;
+  padding: 2px;
+}
+
+#jalapeno-form-editor .nsjalapeno--replaceable.ui-sortable-helper > .nsjalapeno--drag-handle,
+#jalapeno-form-editor .nsjalapeno--replaceable.ui-draggable-dragging > .nsjalapeno--drag-handle {
+  border: solid 2px #ff7040;
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
+  box-shadow: 0 0 5px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+
+#jalapeno-status-messages ul,
+#jalapeno-error-messages ul {
+  border: solid 1px;
+  -moz-border-radius: 3px;
+  padding: 0 0.6em;
+  margin-bottom: 5px;
+}
+
+#jalapeno-status-messages ul {
+  background-color: #FFFFE0;
+  border-color: #E6DB55;;
+}
+
+#jalapeno-error-messages ul {
+  background-color: #f2dada;
+  border-color: #e65555;;
+}
+
+
+#jalapeno-status-messages ul li,
+#jalapeno-error-messages ul li {
+  margin: 0.5em 0;
+  padding: 2px;
+}

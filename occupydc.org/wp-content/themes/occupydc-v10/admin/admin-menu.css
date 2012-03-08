@@ -1,0 +1,115 @@
+/**
+ * admin-menu.css
+ *
+ * CSS for the themes admin panel
+ *
+ * @package WordPress
+ * @subpackage CP-Themes
+ * @since 2.9.0
+ */
+
+.admin_wrap {
+	width: 740px;
+}
+
+.admin_section {
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+}
+
+.admin_subsection {
+	background: #f9f9f9;
+	margin: 0 30px;
+}
+
+.admin_subsection .admin_input {
+	padding: 5px;
+}
+
+.admin_opts label {
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: 700;
+	vertical-align: middle;
+	width: 200px;
+}
+
+.admin_input { 
+	padding: 20px 10px;
+}
+
+.admin_opts small {
+	color: #999
+	display: block;
+	float: right;
+	width: 200px;
+}
+
+.admin_opts input[type="text"],
+.admin_opts select {
+	background: #f3f3f3;
+	color: #333;
+	font-size: 12px;
+	line-height: 1em;
+	padding: 4px;
+	width: 280px;
+}
+
+.admin_input input:focus,
+.admin_input textarea:focus {
+	background:#fff;
+}
+
+.admin_input textarea { 
+	background: #f3f3f3;
+	color: #333;
+	font-size: 12px;
+	height: 175px;
+	line-height: 1.5em;
+	padding: 4px;
+	width: 280px;
+}
+
+.admin_title h3 {
+	color: #232323;
+	cursor: pointer;
+	float: left;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 14px 10px;
+	text-transform: uppercase;
+	width: 80%;
+}
+
+.admin_title { 
+	background: #fef5be;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+	padding: 0;
+}
+
+.admin_title span.submit {
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 14px 0;
+	width: 15%;
+}
+
+.admin_table th,
+.admin_table td {
+	border: 1px solid #bbb;
+	padding: 10px;
+	text-align: center;
+}
+
+.admin_table th,
+.admin_table td.feature {
+	border-color: #888;
+}
+
+.clear { 
+	clear: both;
+}
