@@ -1,9 +1,9 @@
 <?php get_header(); ?>
-
-<div id="content" class="col-full">
 <?php include ('announcements.php'); ?>
 
-	<div id="main" class="col-left">
+	<div class="row-fluid main">
+	<div class="span10 page-col"><div class="row-fluid">
+	<div class="span8">
 
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -24,9 +24,9 @@
 		</div><!--#END post-content -->
 
 	</div><!-- #END post -->
-
-			<?php comments_template(); ?>
-
+		
+<?php $allow_comments = NULL; $allow_comments = get_post_meta($post->ID,'allow_comments', false); ?>
+<?php if ($allow_comments[0]) { comments_template(); } ?>
 		<?php endwhile; ?>
 
 		<?php else : ?>
@@ -39,9 +39,9 @@
 
 		<?php endif; ?>
 
-	</div><!-- #END main -->
+	</div><!-- #END main --><div class="span3 sidebar">
+	<?php get_sidebar(); ?></div></div></div>
 	
-	<?php get_sidebar(); ?>
 
 </div><!-- #END content -->
 

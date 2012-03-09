@@ -37,11 +37,6 @@ overflow: auto;
 	padding:15px 0 0  0 !important;
 }
 
-.main{
-	background:#fff;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;}
 
 /* I think its quite odvious what this next style is...*/
 .announcements {
@@ -52,6 +47,8 @@ clear: both;
 text-shadow: 1px 1px 0px #BCBCBC;
 filter: dropshadow(color=#BCBCBC, offx=1, offy=1);
 text-align: center;
+border-top: 1px solid #E2E2E2;
+border-bottom: 1px solid #E2E2E2;
 }
 
 
@@ -189,8 +186,8 @@ a:hover{color:#73020a !important;}
 .dropdown:hover .caret,.open.dropdown .caret{opacity:1;filter:alpha(opacity=100);}
 .dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;float:left;display:none;min-width:160px;_width:160px;padding:4px 0;margin:0;list-style:none;background-color:#ffffff;border-color:#ccc;border-color:rgba(0, 0, 0, 0.2);border-style:solid;border-width:1px;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;*border-right-width:2px;*border-bottom-width:2px;}.dropdown-menu.bottom-up{top:auto;bottom:100%;margin-bottom:2px;}
 .dropdown-menu .divider{height:1px;margin:5px 1px;overflow:hidden;background-color:#e5e5e5;border-bottom:1px solid #ffffff;*width:100%;*margin:-5px 0 5px;}
-.dropdown-menu a{display:block;padding:3px 15px;clear:both;font-weight:normal;line-height:18px;color:#555555;white-space:nowrap;}
-.dropdown-menu li>a:hover,.dropdown-menu .active>a,.dropdown-menu .active>a:hover{color:#ffffff;text-decoration:none;background-color:#be0411;}
+.dropdown-menu a{display:block;padding:3px 15px;clear:both;font-weight:normal;line-height:18px;color:#555555;white-space:nowrap;border-bottom: 1px #DDD solid;}
+.dropdown-menu li>a:hover,.dropdown-menu .active>a,.dropdown-menu .active>a:hover{color:#ffffff !important;text-decoration:none;background-color:#be0411;}
 .dropdown.open{*z-index:1000;}.dropdown.open .dropdown-toggle{color:#ffffff;background:#ccc;background:rgba(0, 0, 0, 0.3);}
 .dropdown.open .dropdown-menu{display:block;}
 
@@ -1517,8 +1514,19 @@ z-index: 2;
 background: url(/assets/subscribe-wrapper-bg-87465eecb2921d5fd91eb974099f058c.gif) repeat scroll left top black;
 background: url(/assets/subscribe-wrapper-bg-87465eecb2921d5fd91eb974099f058c.gif) repeat scroll left top black;
 height: 231px;
-margin: 0 !important;
+margin: 0 ;
 padding: 0px 0 !important;
+}
+
+.gecko #calendar-fix {
+    margin: 36px 46px 0 -4px;
+    position: absolute;
+}
+.gecko #subscribe-wrapper, .sarari #subscribe-wrapper5 {
+    background: url("/assets/subscribe-wrapper-bg-87465eecb2921d5fd91eb974099f058c.gif") repeat scroll left top black;
+    height: 231px;
+    margin: -35px 0 0 !important;
+    padding: 0 0 !important;
 }
 
 .navalert {
@@ -1597,7 +1605,182 @@ border-bottom: 5px solid #DDD;
 top: 0!important;
 margin-top: 0!important;
 }
+a.reversal:hover{
+	background: #BE0411;
+color: white !important;
+}
+
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a {color: #BE0411 !important;}
+
+/*QR Code */
+
+#qr {
+margin: 0 0px 0 -22px;
+-webkit-box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
+box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#qrtext a{
+	color: #EEE !important;
+}
+
+#qrcode {
+-moz-transform: rotate(-5deg);
+-webkit-transform: rotate(-5deg);
+-o-transform: rotate(-5deg);
+-ms-transform: rotate(-5deg);
+transform: rotate(-5deg);
+margin: 48px 0 -48px 40px;
+padding: 11px;
+background: #222;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#qrtext {
+text-transform: uppercase;
+font-size: 31px;
+line-height: 33px;
+color: #EEE;
+letter-spacing: 2px;
+width: 138px;
+margin: 16px 10px 0 -21px;
+}
+
+#qrcode {
+-moz-transform: rotate(-5deg);
+-webkit-transform: rotate(-5deg);
+-o-transform: rotate(-5deg);
+-ms-transform: rotate(-5deg);
+transform: rotate(-5deg);
+margin: 48px 0 -48px 40px;
+padding: 8px;
+background: #222;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+h2#qrtext {
+font-size: 29px !important;
+margin: 0;
+letter-spacing: -1px;}
 
 h2 a {
 color: #333;
+}
+
+
+/*footer*/
+
+members
+Register
+
+9981, 9969, 9968, 9970, 2, 643, 8354, 9985, 9978, 9983, 9417,
+
+ul {
+list-style: none !important;
+}
+
+
+color: #EEE !important;
+list-style: none;
+border-bottom: 6px solid;
+font-size: 20px;
+line-height: 15px;
+
+h2.footerr {
+color: #EEE !important;
+list-style: none;
+border-bottom: 6px solid #BE0411;
+font-size: 20px;
+line-height: 19px;
+margin: 0 0 3px 0;
+padding: 0 5px;
+}
+.footerr h2 {
+color: #EEE !important;
+list-style: none;
+border-bottom: 6px solid #BE0411;
+font-size: 20px;
+line-height: 19px;
+margin: 0 0 3px 0;
+padding: 0 5px;
+}
+
+.footerr {
+font-size: 11px;
+padding: 0 20px;
+margin: 0 auto;
+width: 95%;
+color: #888;
+}
+
+.footertext {
+width: 500px;
+margin: 0 auto;
+padding: 0 368px 0 0;
+}
+.right.social {
+margin: -53px 20px 0 0;
+}
+
+#footer {
+height: 60px;
+padding: 10px;
+}
+height: 60px;
+padding: 10px;
+border-top: 1px solid #E2E2E2;
+}
+ul {
+list-style: none !important;
+}
+
+.footerr a {
+color: #EDEDED;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+.footerr a:hover {
+background: #BE0411;
+color: white !important;
+padding: 1px 20px !important;
+margin: -1px -20px !important;
+}
+
+/*pages*/
+
+.main{
+width:100%;
+	background: none;
+background-color: #F1F2F1;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+
+.page-col {
+margin: 0 0 0 7% !important;
+width: 82.97872339599999%;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: white;
+border: 1px solid #E2E2E2;
+padding: 25px 20px;
+-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, .1);
+}
+
+.sidebar {
+border-left: 1px dashed #E2E2E2;
+padding: 0 30px 100px;
 }

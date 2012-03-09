@@ -12,7 +12,7 @@ display:none !important;
 <div id="subscribe-wrapper">
   <div id="subscribe" class="row-fluid">
      <div class="span12">
-       
+       <!--<div id="qrcode" class="span4"><div class="span2"><a href="<?php bloginfo('template_directory'); ?>/images/odcqr.png"><img src="<?php bloginfo('template_directory'); ?>/images/odcqr.png" id="qr" /></a></div><div class="span1" id="qrtext"><a href="<?php bloginfo('template_directory'); ?>/images/odcqr.png"> <strong><h2 id="qrtext">Download</h2> our QR Code!</strong></a></div></div>-->
         <div id="subscribe-form" class="span4">
           <form id="pre-signup" action="/users/signup" method="get">
             <input type="email" name="email" placeholder="johndoe@occupydc.org" required="true">
@@ -38,21 +38,9 @@ display:none !important;
               ?>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-<script src="http://www.w3resource.com/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-tooltip.js"></script>
 
-<script src="http://www.w3resource.com/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-popover.js"></script>
 
-<script>
-
-$(function ()
-
-{ $("#example").popover();
-
-});
-
-</script>
 
 
 
@@ -140,25 +128,13 @@ if( $ilc_settings['ilc_intro'] != '' ) : ?>
 <img src="<?php echo do_shortcode( stripslashes( get_option( 'cp_wimage1' ) ) ); ?>" id="fpwidgetimage"/>  
         <h2><strong><?php echo do_shortcode( stripslashes( get_option( 'cp_abouttitle' ) ) ); ?></strong></h2>  
         <p><?php echo do_shortcode( stripslashes( get_option( 'cp_about' ) ) ); ?></p>  
+		  
 </div>
-<div class="span4"><script>$('.carousel').carousel() interval: 2000</script><script>
-
-$(function ()
-
-{ $("#cald").popover();
-
-});
-
-$(function ()
-
-{ $("#evnt").popover();
-
-});
-
-</script>  <div id="myCarousel" class="carousel">
+<div class="span4"> <div id="myCarousel" class="carousel">
   <!-- Carousel items -->
  <h2> <a class="left" id="cald" data-content="View Calendar" href="#myCarousel" data-slide="prev"><strong>Calendar</strong></a></h2>
 <h2>  <a class="right" id="evnt" data-content="View Events" href="#myCarousel" data-slide="next"><strong>Events</strong></a></h2>
+<div id="calendar-fix">
   <div class="carousel-inner">
     <div class="active item"><?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('center_column')) : else : ?>  
         <p>This center_column is widget ready! Add one in the admin panel.</p>  
@@ -167,15 +143,17 @@ $(function ()
         <p>This right_column is widget ready! Add one in the admin panel.</p>  
     <?php endif; ?>  
 </div>
-  </div>
+  </div></div>
   <!-- Carousel nav -->
 </div>
 
 </div>
-<div class="span4">  
-<img src="<?php echo do_shortcode( stripslashes( get_option( 'cp_wimage3' ) ) ); ?>" id="fpwidgetimage"/>          <h2>Widget Ready</strong></h2>  
-        <p>This right_column is widget ready! Add one in the admin panel.</p>  
-</div></div>
+<div class="span4" id="fpwidget">
+<img src="<?php echo do_shortcode( stripslashes( get_option( 'cp_wimage2' ) ) ); ?>" id="fpwidgetimage"/>  
+        <h2><strong><?php echo do_shortcode( stripslashes( get_option( 'cp_fpwtitle' ) ) ); ?></strong></h2>  
+        <p><?php echo do_shortcode( stripslashes( get_option( 'cp_fpw' ) ) ); ?></p>  
+		  
+</div>
 </div> <!-- row -->
 </div> <!-- homeRow -->
 		</div><!-- container -->

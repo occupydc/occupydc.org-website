@@ -63,6 +63,17 @@ $options = array (
 					"type" => "textarea",
 					"std" => ""),
 					
+						array( "name" => __("Frontpage, right column title", 'cp'),
+					"desc" => __("The right column title.", 'cp'),
+					"id" => $shortname."_fpwtitle",
+					"type" => "text",
+					"std" => ""),
+
+			array( "name" => __("Frontpage, right column Snippet", 'cp'),
+					"desc" => __("This Snippet is shown on the front page right column.", 'cp'),
+					"id" => $shortname."_fpw",
+					"type" => "textarea",
+					"std" => ""),
 
 			array( "name" => __("Announcement Category", 'cp'),
 					"desc" => __("Enter the category ID of the category you would like to have displayed on the front page under <strong>Recent Announcements by Occupy DC</strong>.", 'cp'),
@@ -99,17 +110,13 @@ $options = array (
 					"id" => $shortname."_wimage1",
 					"type" => "text",
 					"std" => ""),
-		
-		 array( "name" => __("Widget Image 2", 'cp'),
-					"desc" => __("Enter the full link to your widget image in the center column on the front page.", 'cp'),
-					"id" => $shortname."_wimage3",
-					"type" => "text",
-					"std" => ""),
-		 array( "name" => __("Widget Image 3", 'cp'),
+ array( "name" => __("Widget Image 2", 'cp'),
 					"desc" => __("Enter the full link to your widget image in the right column on the front page.", 'cp'),
-					"id" => $shortname."_wimage3",
+					"id" => $shortname."_wimage2",
 					"type" => "text",
 					"std" => ""),
+		
+	
 		array( "type" => "close"),
 		
  

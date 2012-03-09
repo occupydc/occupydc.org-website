@@ -33,6 +33,7 @@
 	<?php if ( is_single() ) wp_enqueue_script('comment-reply'); ?>	
     <?php wp_head(); ?>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
   jQuery("#signupalertsbox").hide();
@@ -41,10 +42,57 @@ jQuery(document).ready(function() {
   });
 });
 </script>
-<script type="text/javascript" src="http://localhost:8080/occupydc.org/wp-content/themes/occupydc-v10/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://localhost:8080/occupydc.org/wp-content/themes/occupydc-v10/js/twipsy.js"></script>
-<script type="text/javascript" src="http://localhost:8080/occupydc.org/wp-content/themes/occupydc-v10/js/tooltip.js"></script>
-<script type="text/javascript" src="http://localhost:8080/occupydc.org/wp-content/themes/occupydc-v10/js/popover.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/twipsy.js"></script>
+
+<!-- Grab Google CDN's jQuery. Fall back to local if necessary -->
+
+
+<script src="http://www.w3resource.com/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-tooltip.js"></script>
+
+<script src="http://www.w3resource.com/twitter-bootstrap/twitter-bootstrap-v2/js/bootstrap-popover.js"></script>
+
+
+<script>
+ $(function() {
+   $(".alert-message").alert();
+ });
+</script>
+
+
+
+ <script>
+            $(function () {
+$('#my-modal').modal({
+  keyboard: true
+})
+})
+          </script>
+		  
+		  <script>
+
+$(function ()
+
+{ $("#example").popover();
+
+});
+
+</script>
+<script>$('.carousel').carousel() interval: 2000</script><script>
+
+$(function ()
+
+{ $("#cald").popover();
+
+});
+
+$(function ()
+
+{ $("#evnt").popover();
+
+});
+
+</Script>
 
 </head>
 
